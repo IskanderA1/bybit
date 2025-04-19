@@ -73,6 +73,7 @@ type V5WebsocketPrivatePositionData struct {
 	Leverage        string     `json:"leverage"`
 	PositionValue   string     `json:"positionValue"`
 	MarkPrice       string     `json:"markPrice"`
+	CurRealisedPnl  string     `json:"curRealisedPnl"`
 	PositionBalance string     `json:"positionBalance"`
 	PositionIM      string     `json:"positionIM"`
 	PositionMM      string     `json:"positionMM"`
